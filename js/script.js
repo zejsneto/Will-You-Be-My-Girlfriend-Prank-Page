@@ -18,7 +18,7 @@ $("#change").click(function() {
   });
   
   function change(){
-      var i = Math.floor(Math.random()*50)+1;
-      var j = Math.floor(Math.random()*50)+1;
+      var i = Math.floor(Math.random()*60)+1;
+      var j = Math.floor(Math.random()*60)+1;
       $("#move").css({top: j+'%',left: i+'%'});
   }
